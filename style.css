@@ -1,0 +1,38 @@
+.slot-machine {
+    text-align: center;
+    padding: 20px;
+}
+
+.slots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.slot {
+    width: 80px;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#spinButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#spinButton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
